@@ -1,3 +1,3 @@
 #!/bin/sh
 
-midori -a file:///usr/share/adi1090x/index.html
+firefox https://github.com/Antidote1911
