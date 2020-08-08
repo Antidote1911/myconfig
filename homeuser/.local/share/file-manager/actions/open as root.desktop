@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Action
+Tooltip=Edition Root
+Name=Edition Root
+Icon=txt
+Profiles=on_file;
+
+[X-Action-Profile on_file]
+Exec=sudo leafpad %f
+MimeTypes=!inode/directory;*;
