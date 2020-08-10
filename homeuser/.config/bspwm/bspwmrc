@@ -85,7 +85,7 @@ bspc rule -a stalonetray state=floating manage=off
 ## Autostart -------------------------------#
 
 # Kill if already running
-killall -9 sxhkd xsettingsd dunst xfce4-power-manager
+killall -9 sxhkd xsettingsd dunst xfce4-power-manager plank mpd ksuperkey
 
 # Lauch notification daemon
 dunst \
@@ -100,6 +100,12 @@ sxhkd &
 # Enable Super Keys For Menu
 ksuperkey -e 'Super_L=Alt_L|F1' &
 ksuperkey -e 'Super_R=Alt_L|F1' &
+
+## xfce4-settings daemon
+xfsettingsd &
+
+## Launch Plank
+exec plank &
 
 # Enable power management
 xfce4-power-manager &
