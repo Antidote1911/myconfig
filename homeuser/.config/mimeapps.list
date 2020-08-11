@@ -1,0 +1,18 @@
+[Added Associations]
+image/png=viewnior.desktop;
+image/jpeg=viewnior.desktop;
+text/x-csrc=geany.desktop;
+application/x-shellscript=geany.desktop;leafpad.desktop;
+image/gif=viewnior.desktop;
+image/svg+xml=viewnior.desktop;
+text/x-matlab=leafpad.desktop;
+text/plain=leafpad.desktop;
+audio/mpeg=smplayer.desktop;
+inode/directory=exo-file-manager.desktop;
+x-scheme-handler/trash=exo-file-manager.desktop;
+
+[Default Applications]
+image/gif=viewnior.desktop
+image/svg+xml=viewnior.desktop
+audio/mpeg=smplayer.desktop
+
