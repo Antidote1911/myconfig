@@ -8,4 +8,4 @@ Profiles=on_folder;
 [X-Action-Profile on_folder]
 Name=Terminal Root
 MimeTypes=inode/directory;
-Exec=sudo termite
+Exec=sudo xfce4-terminal
