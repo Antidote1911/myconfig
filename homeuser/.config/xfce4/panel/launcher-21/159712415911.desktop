@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Exec=veracrypt
+Icon=veracrypt
+Comment=Disk encryption with strong security based on TrueCrypt
+Terminal=false
+Name=VeraCrypt
+StartupNotify=true
+Categories=System;Administration;
+X-XFCE-Source=file:///usr/share/applications/veracrypt.desktop
+Path=

@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=Task Manager
+Name[fr]=Gestionnaire de tâches
+Comment=Easy to use task manager
+Comment[fr]=Gestionnaire de tâches simple d’utilisation
+GenericName=Task Manager
+GenericName[fr]=Gestionnaire de tâches
+Exec=xfce4-taskmanager
+Icon=utilities-system-monitor
+Terminal=false
+StartupNotify=true
+Type=Application
+Categories=System;Utility;
+X-XFCE-Source=file:///usr/share/applications/xfce4-taskmanager.desktop
