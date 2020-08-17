@@ -2,7 +2,7 @@
 
 # A script to get colours from xrdb & deploy it to polybar, termite & rofi.
 
-DIR="$HOME/.config/bspwm"
+DIR="$HOME/.config"
 
 getcolors () {
 	FOREGROUND="$(xrdb -query | grep 'foreground:'| awk '{print $NF}')"
@@ -27,7 +27,7 @@ getcolors () {
 }
 
 bspbar () {
-	cat > $DIR/polybar/colors <<- EOF	
+	cat > $DIR/polybar/colors.ini <<- EOF	
 	[color]
 
 	FOREGROUND = ${FOREGROUND}
@@ -48,6 +48,7 @@ bspbar () {
 	ALTMAGENTA = ${ALTMAGENTA}
 	ALTCYAN = ${ALTCYAN}
 	ALTWHITE = ${ALTWHITE}
+	ORANGE = #E57C46
 	EOF
 }
 
@@ -57,7 +58,7 @@ bspterm () {
 	[colors]
 
 	foreground=${FOREGROUND}
-	background=${BACKGROUND}
+	background = rgba(41, 53, 59, 0.8)
 	cursor=${CURSOR}
 
 	color0=${BLACK}
@@ -69,7 +70,7 @@ bspterm () {
 	color6=${CYAN}
 	color7=${WHITE}
 
-	color8=${ALTBLACK}
+	color8=${ALTCYAN}
 	color9=${ALTRED}
 	color10=${ALTGREEN}
 	color11=${ALTYELLOW}
@@ -82,14 +83,17 @@ bspterm () {
 }
 
 bsprofi () {
-	cat > $DIR/rofi/themes/colors.rasi <<- EOF	
+	cat > $DIR/rofi/forest/colors.rasi <<- EOF	
 	* {
-		background:			${BACKGROUND};
-		foreground:			${FOREGROUND};
-		selected:			${BLUE};
-		urgent:				${RED};
-		on:					${GREEN};
-		off:				${RED};
+		BG:			${BACKGROUND}ff;
+                BGA:                ${BACKGROUND}ff;
+		FG:			${FOREGROUND}ff;
+		SEL:			${BLUE}ff;
+                BDR:                ${BLUE}ff;
+		UGT:	        ${RED}ff;
+		ON:		        ${GREEN}ff;
+		OFF:		        ${RED}ff;
+                IMG:                ${RED}ff;
 	}
 	EOF
 }

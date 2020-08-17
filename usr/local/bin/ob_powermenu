@@ -21,7 +21,7 @@ rofi -dmenu\
 if  [[ $1 = "--logout" ]]; then
 	ans=$(cdialog)
 	if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        openbox --exit
+        bspc quit
 	elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
         exit
     else

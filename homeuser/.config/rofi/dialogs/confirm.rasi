@@ -3,7 +3,7 @@
 * {
     background-color:       @BG;
     text-color:             @FG;
-	font:				 	"Noto Sans Regular 10";
+	font:				 	"NotoSans-Regular 10";
 }
 
 window {

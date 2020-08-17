@@ -45,7 +45,7 @@ cursor_shape = block
 [colors]
 
 foreground = #C4C7C5
-background = #222D32
+background = rgba(41, 53, 59, 0.8)
 cursor = #afbfbf
 
 #black

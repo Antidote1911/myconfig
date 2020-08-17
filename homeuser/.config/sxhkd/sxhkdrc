@@ -1,28 +1,25 @@
-##---------- Keybindings for bspwm ----------##
-
-
 ##---------- Rofi Launcher & Menus ----------##
 
 # Rofi App Launcher
 super + space
-	sh ~/.config/bspwm/rofi/bin/launcher
+	sh ~/.config/rofi/bin/launcher
 
 # Rofi Network Menu
 super + n
 	nmd
 
 # Rofi Menus
-super + {w,x,r}
-	sh ~/.config/bspwm/rofi/bin/{windows,powermenu,asroot}
+super + {w,x,r,t}
+	sh ~/.config/rofi/bin/{windows,powermenu,asroot,themes}
 
-ctrl + alt + {s,n,t}
-	sh ~/.config/bspwm/rofi/bin/{screenshot,network,themes}
+ctrl + alt + {s,n,m}
+	sh ~/.config/rofi/bin/{screenshot,network,mpd}
 
 ##---------- Applications ----------##
 
 # Launch Apps
-super + {Return,f,p,g,s,h}
-	{bspterm,firefox,pcmanfm,geany,spotify,termite -e htop}
+super + {Return,f,p,g,s,h,m}
+	{bspterm,firefox,pcmanfm,geany,spotify,termite -e htop, termite -e "ncmpcpp -s visualizer"}
 
 # Floating terminal
 super + shift + Return
@@ -133,6 +130,6 @@ super + button{4,5}
     
 # Restore original gap
 super + button{2}
-    bspc config top_padding 30; bspc config -d focused window_gap 10
+    bspc config top_padding 30; bspc config bottom_padding 30; bspc config -d focused window_gap 10
 
 ##---------- EOF ----------##
