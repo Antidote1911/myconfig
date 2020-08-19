@@ -5,3 +5,5 @@
 #
 QT_QPA_PLATFORMTHEME=qt5ct
 EDITOR=vim
+CLUTTER_PAINT=disable-clipped-redraws:disable-culling
+CLUTTER_VBLANK=True
