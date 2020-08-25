@@ -8,11 +8,12 @@
 DIR="$HOME/.config"
 XDIR="$HOME/.Xresources.d"
 
-rofi_command="rofi -theme $DIR/rofi/forest/themes.rasi"
+rofi_command="rofi -theme $DIR/rofi/styles/themes.rasi"
 
 style (){
 	cat "$DIR"/themes/$1 > "$XDIR"/colors
 	nitrogen --set-zoom-fill --save /usr/share/backgrounds/$1.jpg
+        betterlockscreen -u /usr/share/backgrounds/$1.jpg
 	bspc wm -r
 }
 

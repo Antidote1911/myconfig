@@ -13,7 +13,7 @@
 # single     single_circle     single_full     single_full_circle     single_rounded     single_text
 
 ## Default
-DIR="forest"
+DIR="styles"
 STYLE="powermenu"
 
 rofi_command="rofi -theme $DIR/$STYLE.rasi"

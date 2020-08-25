@@ -1,6 +1,6 @@
 #!/bin/bash
 
-STYLE="forest"
+STYLE="styles"
 
 rofi_command="rofi -theme $STYLE/mpd.rasi"
 

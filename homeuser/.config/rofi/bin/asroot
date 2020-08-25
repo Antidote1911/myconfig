@@ -7,7 +7,7 @@
 
 DIR="$HOME/.config"
 
-rofi_command="rofi -theme $DIR/rofi/forest/asroot.rasi"
+rofi_command="rofi -theme $DIR/rofi/styles/asroot.rasi"
 
 # Apps
 terminal=" Termite"

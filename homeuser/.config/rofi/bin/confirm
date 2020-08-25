@@ -3,4 +3,4 @@ rofi -dmenu\
     -i\
     -no-fixed-num-lines\
     -p "Are You Sure? : "\
-    -theme ~/.config/rofi/forest/confirm.rasi
+    -theme ~/.config/rofi/styles/confirm.rasi

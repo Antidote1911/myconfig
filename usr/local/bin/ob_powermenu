@@ -21,7 +21,7 @@ rofi -dmenu\
 if  [[ $1 = "--logout" ]]; then
 	ans=$(cdialog)
 	if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-        bspc quit
+        openbox --exit
 	elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then
         exit
     else
@@ -31,7 +31,6 @@ if  [[ $1 = "--logout" ]]; then
 elif  [[ $1 = "--suspent" ]]; then
 	ans=$(cdialog)
 	if [[ $ans == "yes" ]] || [[ $ans == "YES" ]] || [[ $ans == "y" ]]; then
-		mpc -q pause
 		amixer set Master mute
 		betterlockscreen --suspend
 	elif [[ $ans == "no" ]] || [[ $ans == "NO" ]] || [[ $ans == "n" ]]; then

@@ -83,7 +83,7 @@ bspterm () {
 }
 
 bsprofi () {
-	cat > $DIR/rofi/forest/colors.rasi <<- EOF	
+	cat > $DIR/rofi/styles/colors.rasi <<- EOF	
 	* {
 		BG:			${BACKGROUND}ff;
                 BGA:                ${BACKGROUND}ff;

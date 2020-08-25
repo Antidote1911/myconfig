@@ -18,8 +18,8 @@ ctrl + alt + {s,n,m}
 ##---------- Applications ----------##
 
 # Launch Apps
-super + {Return,f,p,g,s,h,m}
-	{bspterm,firefox,pcmanfm,geany,spotify,termite -e htop, termite -e "ncmpcpp -s visualizer"}
+super + {Return,f,p,g,s,h,mvv}
+	{bspterm,chromium,pcmanfm,geany,spotify,termite -e htop, termite -e "ncmpcpp -s visualizer"}
 
 # Floating terminal
 super + shift + Return
@@ -38,17 +38,6 @@ alt + Print
 # Brighness control
 XF86MonBrightness{Up,Down}
 	backlight{-up,-down}
-	
-# Volume control
-XF86Audio{RaiseVolume,LowerVolume}
-	volume{-up,-down}
-
-XF86AudioMute
-	amixer set Master toggle
-	
-# Music control
-XF86Audio{Next,Prev,Play,Stop}
-	mpc {next,prev,toggle,stop}
 
 ##---------- Bspwm ----------##
 
@@ -104,13 +93,9 @@ alt + {_,shift + }Tab
 ctrl + alt + {Left,Right}
 	bspc desktop -f {prev.local,next.local}
 
-# Switch to last opened workspace
-super + {Tab,grave}
-	bspc {node,desktop} -f last
-
-# Send focused window to another workspace
-super + {_,shift + }{1-8}
-	bspc {desktop -f,node -d} '^{1-8}'
+# focus or send to the given desktop
+super + {_,shift} + {1-8}
+    bspc {desktop -f,node -d} focused:^{1-8}
 
 # Expanding windows
 super + control + {Left,Right,Up,Down}
