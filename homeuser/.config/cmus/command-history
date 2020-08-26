@@ -1,8 +1,0 @@
-remove
-delete
-d
-del
-bind -f common u shell ~/.config/cmus/update-library.sh
-bind -f common u shell ~/config/cmus/update-library.sh
-q
-save

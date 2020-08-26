@@ -17,3 +17,5 @@ exec dunst &
 
 ## Enable power management
 xfce4-power-manager &
+
+spotify-listener  &
