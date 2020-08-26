@@ -1,0 +1,88 @@
+2020-08-22	rc.xml KEYBINDS
+-------------------------------
+
+ 0	W-1           				GoToDesktop
+ 1	W-2           				GoToDesktop
+ 2	W-3           				GoToDesktop
+ 3	W-4           				GoToDesktop
+ 4	W-5           				GoToDesktop
+ 5	S-W-1         				SendToDesktop
+ 6	S-W-2         				SendToDesktop
+ 7	S-W-3         				SendToDesktop
+ 8	S-W-4         				SendToDesktop
+ 9	S-W-5         				SendToDesktop
+10	A-Tab         				NextWindow
+11	W-Tab         				NextWindow
+12	W-Left        				UnmaximizeFull
+13	W-Right       				UnmaximizeFull
+14	W-Up          				MaximizeFull
+15	W-Down        				UnmaximizeFull
+16	W-k           				Unmaximize
+17	W-h           				Unmaximize
+18	W-j           				Unmaximize
+19	W-l           				Unmaximize
+20	A-z           				Unmaximize
+21	A-x           				Unmaximize
+22	A-c           				Unmaximize
+23	W-A-Up        				MoveRelative
+24	W-A-Down      				MoveRelative
+25	W-A-Left      				MoveRelative
+26	W-A-Right     				MoveRelative
+27	C-A-Right     				ResizeRelative
+28	C-A-Left      				ResizeRelative
+29	C-A-Down      				ResizeRelative
+30	C-A-Up        				ResizeRelative
+31	W-S-Left      				SendToDesktopLeft
+32	W-S-Right     				SendToDesktopRight
+33	XF86AudioRaiseVolume	volume-up
+34	XF86AudioLowerVolume	volume-down
+35	XF86AudioMute  			amixer set Master toggle
+36	XF86AudioStop  			mpc stop
+37	XF86AudioPlay  			mpc toggle
+38	XF86AudioPrev  			mpc prev
+39	XF86AudioNext  			mpc next
+40	XF86MonBrightnessUp	backlight-up
+41	XF86MonBrightnessDown	backlight-down
+42	Print         				scrot 'Screenshot_%Y-%m-%d-%I-%M-%S_$wx$h.png' -e 'mv $f $$(xdg-user-d.....
+43	A-Print       				scrot -d 5 'Screenshot_%Y-%m-%d-%I-%M-%S_$wx$h.png' -e 'mv $f $$(xdg-u.....
+44	C-Print       				scrot -u -b 'Screenshot_%Y-%m-%d-%I-%M-%S_$wx$h.png' -e 'mv $f $$(xdg-.....
+45	W-e           				geany
+46	W-f           				pcmanfm
+47	W-t           				termite
+48	W-w           				midori
+49	W-n           				networkmanager_dmenu
+50	A-F1          				~/.config/rofi/bin/launcher
+51	W-m           				~/.config/rofi/bin/mpd
+52	W-x           				~/.config/rofi/bin/powermenu
+53	W-s           				~/.config/rofi/bin/screenshot
+54	W-i           				~/.config/rofi/bin/network
+55	W-c           				color_picker
+56	W-v           				tasks
+57	C-A-t         				termite -c ~/.config/termite/config_easy
+58	C-A-l         				betterlockscreen --lock
+59	C-A-v         				termite -e vim
+60	C-A-r         				termite -e ranger
+61	C-A-h         				termite -e htop
+62	C-S-Escape     			Exit
+63	C-S-BackSpace  			Restart
+64	C-S-R         				Reconfigure
+65	W-Escape      				xkill
+66	A-F4          				Close
+67	A-F5          				Iconify
+68	A-F6          				ToggleMaximize
+69	A-F7          				ToggleDecorations
+70	W-d           				ToggleShowDesktop
+71	A-r           				Resize
+72	A-m           				Move
+73	S-W-q         				Close
+74	W-space       				root-menu
+75	A-space       				client-menu
+76	W-KP_1        				UnmaximizeFull
+77	W-KP_2        				UnmaximizeFull
+78	W-KP_3        				UnmaximizeFull
+79	W-KP_4        				UnmaximizeFull
+80	W-KP_5        				MaximizeFull
+81	W-KP_6        				UnmaximizeFull
+82	W-KP_7        				UnmaximizeFull
+83	W-KP_8        				UnmaximizeFull
+84	W-KP_9        				UnmaximizeFull

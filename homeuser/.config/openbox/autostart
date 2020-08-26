@@ -1,0 +1,19 @@
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+## Restore Wallpaper
+nitrogen --restore
+
+## xfce4-settings daemon
+xfsettingsd &
+
+## Start Compositing Manager
+exec picom -b &
+
+## Launch Polybar
+sh ~/.config/polybar/launch_for_ob.sh
+
+## Notification Daemon
+exec dunst &
+
+## Enable power management
+xfce4-power-manager &
