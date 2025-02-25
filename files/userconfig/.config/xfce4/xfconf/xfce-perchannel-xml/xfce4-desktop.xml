@@ -7,29 +7,29 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="test.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
-        <property name="image-path" type="string" value="/home/antidote/Images/default.jpg"/>
+        <property name="image-path" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         <property name="image-show" type="bool" value="true"/>
         <property name="image-style" type="int" value="5"/>
       </property>
@@ -37,216 +37,216 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorHDMI-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/home/antidote/Images/default.jpg"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-0" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-1" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-2" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-3" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-4" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
       <property name="monitorDP-5" type="empty">
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace2" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace3" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
         <property name="workspace4" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png"/>
+          <property name="last-image" type="string" value="/usr/share/backgrounds/packarch/default.jpg"/>
         </property>
       </property>
     </property>
