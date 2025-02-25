@@ -13,3 +13,5 @@ sudo cp -r /home/${USER}/myconfig/files/backgrounds/packarch /usr/share/backgrou
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.config /home/${USER}/
 sudo cp -r /home/${USER}/myconfig/files/packarch-icon.png /home/${USER}/.face
 sudo cp -r /home/${USER}/myconfig/files/packarch-icon.png /usr/share/pixmaps/packarch.png
+
+eos-wallpaper-set /usr/share/backgrounds/packarch/default.jpg
