@@ -33,3 +33,4 @@ arc-gtk-theme-eos
 eos-lightdm-slick-theme
 eos-qogir-icons
 endeavouros-xfce4-terminal-colors
+geany
