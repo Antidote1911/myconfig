@@ -24,6 +24,7 @@ if [[ $vm_setting == 1 ]]; then
   sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt
   sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
   sudo systemctl enable autofs.service 2>>log.txt
+  sudo modprobe vboxdrv 2>>log.txt
 fi
 ####################################################
 

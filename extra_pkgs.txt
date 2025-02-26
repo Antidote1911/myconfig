@@ -7,3 +7,5 @@ autofs
 filebot
 rustrover
 rustrover-jre
+virtualbox
+virtualbox-host-modules-arch
