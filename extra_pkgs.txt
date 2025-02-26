@@ -1,0 +1,9 @@
+smplayer
+smplayer-skins
+smplayer-themes
+mkvtoolnix-gui
+rustup
+autofs
+filebot
+rustrover
+rustrover-jre

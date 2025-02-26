@@ -9,7 +9,6 @@ gvfs-nfs
 gvfs-smb
 lightdm
 lightdm-slick-greeter
-mousepad
 network-manager-applet
 ristretto
 thunar-archive-plugin
@@ -31,11 +30,6 @@ xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 arc-gtk-theme-eos
 eos-lightdm-slick-theme
-eos-qogir-icons
 endeavouros-xfce4-terminal-colors
 geany
-smplayer
-smplayer-skins
-smplayer-themes
-mkvtoolnix-gui
-rustup
+
