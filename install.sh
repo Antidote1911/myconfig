@@ -18,12 +18,12 @@ sudo cp -r /home/antidote/myconfig/files/userconfig/.profile /home/antidote/.pro
 sudo cp -r /home/antidote/myconfig/files/packarch-icon.png /usr/share/pixmaps/packarch.png 2>log.txt
 sudo cp -r /home/antidote/myconfig/files/backgrounds/packarch /usr/share/backgrounds/packarch 2>log.txt
 
-sudo sed -i -e 's|background=/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png|background=/usr/share/backgrounds/packarch/test.jpg|g' /etc/lightdm/slick-greeter.conf 2>log.txt
+sudo sed -i -e 's|background=/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png|background=/usr/share/backgrounds/packarch/default.jpg|g' /etc/lightdm/slick-greeter.conf 2>log.txt
 sudo sed -i -e 's|color_scheme=nordic.conf|color_scheme=dark-colors.conf|g' /root/.config/geany/geany.conf 2>log.txt
 
 sudo chown -R antidote:antidote /home/antidote 2>log.txt
 
-xfce4-set-wallpaper /usr/share/backgrounds/packarch/test.jpg 2>log.txt
+xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg 2>log.txt
 
 rustup toolchain install stable 2>log.txt
 yay -Sy --noconfirm filebot rustrover autofs 2>log.txt
