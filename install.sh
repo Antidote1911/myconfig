@@ -17,6 +17,6 @@ cp -r /home/antidote/myconfig/files/userconfig/.config /home/antidote/
 cp -r /home/antidote/myconfig/files/packarch-icon.png /home/antidote/.face
 cp -r /home/antidote/myconfig/files/packarch-icon.png /usr/share/pixmaps/packarch.png
 cp -r /home/antidote/myconfig/files/backgrounds/packarch /usr/share/backgrounds/packarch
-chown antidote:antidote /home/antidote
+chown -R antidote:antidote /home/antidote
 
 su antidote xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg
