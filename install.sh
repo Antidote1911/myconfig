@@ -23,8 +23,8 @@ sudo cp -r /home/antidote/myconfig/files/backgrounds/packarch /usr/share/backgro
 sudo chown -R antidote:antidote /home/antidote
 xfce4-set-wallpaper /usr/share/backgrounds/packarch/test.jpg
 
-rustup toolchain install stable
-yay -Sy --noconfirm filebot rustrover autofs
+#rustup toolchain install stable
+#yay -Sy --noconfirm filebot rustrover autofs
 ## -------------------------------------------------------------- ##
 ## Add syno nfs share to autofs
 #sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master
