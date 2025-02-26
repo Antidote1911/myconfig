@@ -26,7 +26,7 @@ sudo chown -R antidote:antidote /home/antidote 2>log.txt
 xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg 2>log.txt
 
 rustup toolchain install stable 2>log.txt
-yay -Sy --noconfirm filebot rustrover autofs 2>log.txt
+yay -Sy --noconfirm filebot rustrover rustrover-jre autofs 2>log.txt
 ## -------------------------------------------------------------- ##
 ## Add syno nfs share to autofs
 sudo cp -r /home/antidote/myconfig/files/auto.nfs /etc/auto.nfs 2>log.txt
@@ -45,6 +45,6 @@ apps=(avahi-discover.desktop bssh.desktop bvnc.desktop xfce4-about.desktop \
 
 for app in "${apps[@]}"; do
 	if [[ -e "$adir/$app" ]]; then
-		sed -i '$s/$/\nNoDisplay=true/' "$adir/$app" 2>log.txt
+		sudo sed -i '$s/$/\nNoDisplay=true/' "$adir/$app" 2>log.txt
 	fi
 done
