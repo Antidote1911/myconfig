@@ -32,7 +32,7 @@ sudo pacman -S - < base_pkgs.txt --noconfirm 2>>log.txt
 ########## Only for full install ###########################
 if [[ $vm_setting == 1 ]]; then
   echo "${green}Install full desktop and applications${reset}"
-  yay -S - < extra_pkgs.txt --noconfirm 2>>log.txt
+  sudo pacman -S - < extra_pkgs.txt --noconfirm 2>>log.txt
   rustup toolchain install stable 2>>log.txt
   ## Add syno nfs share to autofs
   sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt

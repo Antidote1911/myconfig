@@ -4,9 +4,8 @@ smplayer-themes
 mkvtoolnix-gui
 rustup
 autofs
-filebot
-rustrover
-rustrover-jre
 virtualbox
 virtualbox-host-modules-arch
-jellyfin-media-player
+cryptyrust
+packarch-rmatrix
+packarch-icons-luna
