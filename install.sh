@@ -7,7 +7,6 @@ reset=`tput sgr0`
 echo "${green}Install Xfce packages${reset}"
 rm /etc/sudoers.d/10-installer
 cp /home/antidote/myconfig/files/02_g_wheel /etc/sudoers.d/
-useradd -m -g users -G "adm,audio,floppy,log,network,rfkill,scanner,storage,optical,power,wheel" -s /bin/bash antidote
 
 pacman -S - < xfce_pkgs.txt --noconfirm
 sed -i -e 's|Exec=geany %F|Exec=geany -i %F|g' /usr/share/applications/geany.desktop
