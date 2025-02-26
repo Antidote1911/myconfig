@@ -9,3 +9,4 @@ rustrover
 rustrover-jre
 virtualbox
 virtualbox-host-modules-arch
+jellyfin-media-player
