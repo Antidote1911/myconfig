@@ -32,6 +32,7 @@ if [[ $vm_setting == 1 ]]; then
   sudo modprobe vboxdrv 2>>log.txt
   cryptyrust_cli -d /home/${USER}/myconfig/files/myEncryptedFile -p ${password} -o tmp.tar.gz
   tar -xf /home/${USER}/myconfig/tmp.tar.gz -C /home/${USER}/
+  eval `ssh-agent -s`
   /home/${USER}/./gitconfig.sh
 fi
 ####################################################
