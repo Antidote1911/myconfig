@@ -13,19 +13,8 @@ sudo sed -i -e 's|%wheel ALL=(ALL:ALL) ALL|%wheel  ALL=(ALL) NOPASSWD: ALL|g' /e
 sudo cp /home/${USER}/myconfig/files/02_g_wheel /etc/sudoers.d/ 2>>log.txt
 sudo rm /etc/sudoers.d/10-installer 2>>log.txt
 
-## Append packarch repository to pacman.conf
-sudo cat >> "/etc/pacman.conf" <<- EOL
-	[packarch]
-	SigLevel = Optional TrustAll
-	Include = /etc/pacman.d/packarch-mirrorlist
-
-	[core]
-	Include = /etc/pacman.d/mirrorlist
-
-	[extra]
-	Include = /etc/pacman.d/mirrorlist
-EOL
-sudo cp -r /home/${USER}/myconfig/files/packarch-mirrorlist /etc//pacman.d/packarch-mirrorlist 2>>log.txt
+sudo cp /home/${USER}/myconfig/files/pacman.conf /etc/pacman.conf 2>>log.txt
+sudo cp /home/${USER}/myconfig/files/packarch-mirrorlist /etc/pacman.d/packarch-mirrorlist 2>>log.txt
 sudo pacman -Syyu
 sudo pacman -S - < base_pkgs.txt --noconfirm 2>>log.txt
 
