@@ -20,6 +20,8 @@ sudo pacman -S - < base_pkgs.txt --noconfirm 2>>log.txt
 
 ########## Only for full install ###########################
 if [[ $vm_setting == 1 ]]; then
+  echo "${green}Enter password to decrypt personal archive:${reset}"
+  read -p "Password: " password
   echo "${green}Install full desktop and applications${reset}"
   sudo pacman -S - < extra_pkgs.txt --noconfirm 2>>log.txt
   rustup toolchain install stable 2>>log.txt
@@ -28,6 +30,7 @@ if [[ $vm_setting == 1 ]]; then
   sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
   sudo systemctl enable autofs.service 2>>log.txt
   sudo modprobe vboxdrv 2>>log.txt
+  cryptyrust_cli -d /home/${USER}/myconfig/files/myEncryptedFile -p ${password} -o tmp.tar.gz
 fi
 ####################################################
 
