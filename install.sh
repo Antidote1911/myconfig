@@ -16,6 +16,6 @@ cp -r /home/antidote/myconfig/files/backgrounds/packarch /usr/share/backgrounds/
 cp -r /home/antidote/myconfig/files/userconfig/.config /home/antidote/
 cp -r /home/antidote/myconfig/files/packarch-icon.png /home/antidote/.face
 cp -r /home/antidote/myconfig/files/packarch-icon.png /usr/share/pixmaps/packarch.png
-chown antidote:group directory /home/antidote
+chown antidote:antidote /home/antidote
 
-eos-wallpaper-set /usr/share/backgrounds/packarch/default.jpg
+su -m antidote -c eos-wallpaper-set /usr/share/backgrounds/packarch/default.jpg
