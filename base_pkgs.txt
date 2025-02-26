@@ -33,5 +33,4 @@ eos-lightdm-slick-theme
 endeavouros-xfce4-terminal-colors
 geany
 atril
-base-devel
 htop

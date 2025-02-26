@@ -1,3 +1,5 @@
+cryptyrust
+packarch-rmatrix
 smplayer
 smplayer-skins
 smplayer-themes
@@ -6,6 +8,4 @@ rustup
 autofs
 virtualbox
 virtualbox-host-modules-arch
-cryptyrust
-packarch-rmatrix
 packarch-icons-luna
