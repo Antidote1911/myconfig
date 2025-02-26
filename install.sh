@@ -48,7 +48,7 @@ adir="/usr/share/applications"
 apps=(avahi-discover.desktop bssh.desktop bvnc.desktop xfce4-about.desktop \
 	org.pulseaudio.pavucontrol.desktop java-java-openjdk.desktop xfce4-mail-reader.desktop \
 	hdajackretask.desktop hdspconf.desktop hdspmixer.desktop jconsole-java-openjdk.desktop jshell-java-openjdk.desktop \
-	libfm-pref-apps.desktop lxshortcut.desktop lstopo.desktop \
+	libfm-pref-apps.desktop eos-quickstart.desktop lstopo.desktop \
 	uxterm.desktop nm-connection-editor.desktop xterm.desktop \
 	qvidcap.desktop stoken-gui.desktop stoken-gui-small.desktop assistant.desktop \
 	qv4l2.desktop qdbusviewer.desktop mpv.desktop)
