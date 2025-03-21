@@ -48,7 +48,7 @@ sudo cp -r /home/${USER}/myconfig/files/userconfig/.bash_logout /home/${USER}/.b
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.bash_profile /home/${USER}/.bash_profile 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.bashrc /home/${USER}/.bashrc 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.zshrc /home/${USER}/.zshrc 2>>log.txt
-sudo cp -r /home/${USER}/myconfig/files/userconfig/.oh-my-zsh /home/${USER}/ 2>>log.txt
+sudo cp -a /home/${USER}/myconfig/files/userconfig/.oh-my-zsh /home/${USER}/ 2>>log.txt
 
 sudo sed -i -e 's|background=/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png|background=/usr/share/backgrounds/packarch/default.jpg|g' /etc/lightdm/slick-greeter.conf 2>>log.txt
 sudo sed -i -e 's|color_scheme=nordic.conf|color_scheme=dark-colors.conf|g' /root/.config/geany/geany.conf 2>>log.txt
@@ -58,8 +58,7 @@ sudo chown -R ${USER}:${USER} /home/${USER} 2>>log.txt
 xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg 2>>log.txt
 sudo systemctl enable lightdm.service 2>>log.txt
 
-## Set zsh as default shell for new user
-sed -i -e 's#SHELL=.*#SHELL=/bin/zsh#g' /etc/default/useradd
+## Set zsh shell for user
 chsh -s /bin/zsh
 
 ## Hide Unnecessary Apps
