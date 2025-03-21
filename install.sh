@@ -53,6 +53,10 @@ sudo chown -R ${USER}:${USER} /home/${USER} 2>>log.txt
 xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg 2>>log.txt
 sudo systemctl enable lightdm.service 2>>log.txt
 
+## Set zsh as default shell for new user
+sed -i -e 's#SHELL=.*#SHELL=/bin/zsh#g' /etc/default/useradd
+chsh -s /bin/zsh
+
 ## Hide Unnecessary Apps
 adir="/usr/share/applications"
 apps=(avahi-discover.desktop bssh.desktop bvnc.desktop xfce4-about.desktop \
