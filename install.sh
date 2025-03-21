@@ -44,6 +44,11 @@ sudo cp -r /home/${USER}/myconfig/files/environment /etc/environment 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.profile /home/${USER}/.profile 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/packarch-icon.png /usr/share/pixmaps/packarch.png 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/backgrounds/packarch /usr/share/backgrounds/packarch 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/userconfig/.bash_logout /home/${USER}/.bash_logout 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/userconfig/.bash_profile /home/${USER}/.bash_profile 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/userconfig/.bashrc /home/${USER}/.bashrc 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/userconfig/.zshrc /home/${USER}/.zshrc 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/userconfig/.oh-my-zsh /home/${USER}/ 2>>log.txt
 
 sudo sed -i -e 's|background=/usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png|background=/usr/share/backgrounds/packarch/default.jpg|g' /etc/lightdm/slick-greeter.conf 2>>log.txt
 sudo sed -i -e 's|color_scheme=nordic.conf|color_scheme=dark-colors.conf|g' /root/.config/geany/geany.conf 2>>log.txt
