@@ -26,15 +26,12 @@ if [[ $vm_setting == 1 ]]; then
   sudo pacman -S - < extra_pkgs.txt --noconfirm 2>>log.txt
   rustup toolchain install stable 2>>log.txt
   ## Add syno nfs share to autofs
-  ## sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt
-  ## sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
-  ## sudo systemctl enable autofs.service 2>>log.txt
   sudo mkdir /mnt/Partage /mnt/Photos
-  sudo cat >> "/etc/fstab" <<- EOL
   
-  ## Synology DS918
-  192.168.1.96:/volume1/Partage /mnt/Partage  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
-  192.168.1.96:/volume1/Photos /mnt/Photos  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
+  sudo cat >> /etc/fstab << EOL
+## Synology DS918
+192.168.1.96:/volume1/Partage /mnt/Partage nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
+192.168.1.96:/volume1/Photos  /mnt/Photos  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
 EOL
 
   sudo modprobe vboxdrv 2>>log.txt
