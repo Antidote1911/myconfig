@@ -142,7 +142,7 @@
       <property name="launcher-icon-size" type="int" value="1"/>
       <property name="position-categories-alternate" type="bool" value="true"/>
       <property name="button-title" type="string" value=""/>
-      <property name="button-icon" type="string" value="/home/antidote/.face"/>
+      <property name="button-icon" type="string" value="/usr/share/pixmaps/packarch.png"/>
       <property name="position-categories-horizontal" type="bool" value="false"/>
       <property name="position-search-alternate" type="bool" value="true"/>
       <property name="hover-switch-category" type="bool" value="true"/>

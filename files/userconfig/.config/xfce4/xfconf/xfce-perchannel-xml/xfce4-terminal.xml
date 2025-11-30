@@ -43,6 +43,6 @@
   <property name="scrolling-lines" type="uint" value="50000"/>
   <property name="scrolling-unlimited" type="bool" value="true"/>
   <property name="tab-activity-color" type="string" value="#81813d3d9c9c"/>
-  <property name="font-use-system" type="bool" value="true"/>
+  <property name="font-use-system" type="bool" value="false"/>
   <property name="color-use-theme" type="bool" value="false"/>
 </channel>
