@@ -10,3 +10,4 @@ virtualbox-host-modules-arch
 packarch-icons-luna
 packarch-fonts
 packarch-omz
+keepassxc
