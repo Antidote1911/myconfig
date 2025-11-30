@@ -34,3 +34,4 @@ endeavouros-xfce4-terminal-colors
 geany
 atril
 htop
+zsh
