@@ -28,7 +28,8 @@ if [[ $vm_setting == 1 ]]; then
   ## Add syno nfs share to autofs
   sudo mkdir /mnt/Partage /mnt/Photos
   
-  sudo cat >> /etc/fstab << EOL
+  sudo tee -a /etc/fstab << EOL
+  
 ## Synology DS918
 192.168.1.96:/volume1/Partage /mnt/Partage nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
 192.168.1.96:/volume1/Photos  /mnt/Photos  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
