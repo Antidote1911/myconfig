@@ -1,6 +1,5 @@
 # Default commands
 : ${MAGIC_ENTER_GIT_COMMAND:="git status -u ."} # run when in a git repository
-: ${MAGIC_ENTER_JJ_COMMAND:="jj st --no-pager ."} # run when in a jj repository
 : ${MAGIC_ENTER_OTHER_COMMAND:="ls -lh ."}      # run anywhere else
 
 magic-enter() {
@@ -10,10 +9,7 @@ magic-enter() {
     return
   fi
 
-  # needs to be before git to handle colocated repositories
-  if (( $+commands[jj] )) && command jj st >/dev/null 2>&1; then
-    BUFFER="$MAGIC_ENTER_JJ_COMMAND"
-  elif (( $+commands[git] )) && command git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+  if command git rev-parse --is-inside-work-tree &>/dev/null; then
     BUFFER="$MAGIC_ENTER_GIT_COMMAND"
   else
     BUFFER="$MAGIC_ENTER_OTHER_COMMAND"

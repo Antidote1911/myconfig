@@ -21,7 +21,6 @@ plugins=(... laravel)
 | `pamfs`  |  `php artisan migrate:fresh --seed` |
 | `pamr`  |  `php artisan migrate:rollback` |
 | `pads`  |  `php artisan db:seed` |
-| `padw`  |  `php artisan db:wipe` |
 
 ## Makers
 

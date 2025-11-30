@@ -37,7 +37,6 @@ function _wd() {
     'rm:Removes the given warp point'
     'list:Outputs all stored warp points'
     'ls:Show files from given warp point'
-    'open:Open warp point in the default file explorer'
     'path:Show path to given warp point'
     'show:Outputs all warp points that point to the current directory or shows a specific target directory for a point'
     'help:Show this extremely helpful text'
@@ -72,9 +71,6 @@ function _wd() {
           _describe -t points "Warp points" warp_points && ret=0
           ;;
         ls)
-          _describe -t points "Warp points" warp_points && ret=0
-          ;;
-        open)
           _describe -t points "Warp points" warp_points && ret=0
           ;;
         path)

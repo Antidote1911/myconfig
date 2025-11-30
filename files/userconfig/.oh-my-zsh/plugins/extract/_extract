@@ -19,9 +19,6 @@ local -a exts=(
   lz4
   lzma
   obscpio
-  pk3
-  pk4
-  pk7
   rar
   rpm
   sublime-package

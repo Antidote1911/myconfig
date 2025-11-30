@@ -19,16 +19,8 @@ function {
 	# load additional options
 	zstyle -a :omz:plugins:keychain options options
 
-	# Check keychain version to decide whether to use --agents
-	local version_string=$(keychain --version 2>&1)
-  # start keychain, only use --agents for versions below 2.9.0
-	autoload -Uz is-at-least
-	if [[ "$version_string" =~ 'keychain ([0-9]+\.[0-9]+)' ]] && \
-      is-at-least 2.9 "$match[1]"; then
-		keychain ${^options:-} ${^identities} --host $SHORT_HOST
-	else
-		keychain ${^options:-} --agents ${agents:-gpg} ${^identities} --host $SHORT_HOST
-	fi
+	# start keychain...
+	keychain ${^options:-} --agents ${agents:-gpg} ${^identities} --host $SHORT_HOST
 
 	# Get the filenames to store/lookup the environment from
 	_keychain_env_sh="$HOME/.keychain/$SHORT_HOST-sh"

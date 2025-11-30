@@ -13,6 +13,3 @@ plugins=(... tldr)
 | Shortcut                           | Description                                                                |
 |------------------------------------|----------------------------------------------------------------------------|
 | <kbd>Esc</kbd> + tldr              | add tldr before the previous command to see the tldr page for this command |
-
-## Note
-You also need to install ```tldr```.

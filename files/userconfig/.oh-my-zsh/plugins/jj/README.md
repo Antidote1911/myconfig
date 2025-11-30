@@ -20,7 +20,6 @@ plugins=(... jj)
 | jje    | `jj edit`                     |
 | jjgcl  | `jj git clone`                |
 | jjgf   | `jj git fetch`                |
-| jjgfa  | `jj git fetch --all-remotes`  |
 | jjgp   | `jj git push`                 |
 | jjl    | `jj log`                      |
 | jjla   | `jj log -r "all()"`           |

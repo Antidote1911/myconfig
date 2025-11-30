@@ -36,22 +36,14 @@ alias-finder() {
     # make filter to find only shorter results than current cmd
     if [[ $cheaper == true ]]; then
       cmdLen=$(echo -n "$cmd" | wc -c)
-      if [[ $cmdLen -le 1 ]]; then
-        return
-      fi
-
-      filter="^'?.{1,$((cmdLen - 1))}'?=" # some aliases is surrounded by single quotes
+      filter="^'{0,1}.{0,$((cmdLen - 1))}="
     fi
 
-    if (( $+commands[rg] )); then
-      alias | rg "$filter" | rg "=$finder"
-    else
-      alias | grep -E "$filter" | grep -E "=$finder"
-    fi
+    alias | grep -E "$filter" | grep -E "=$finder"
 
     if [[ $exact == true ]]; then
       break # because exact case is only one
-    elif [[ $longer == true ]]; then
+    elif [[ $longer = true ]]; then
       break # because above grep command already found every longer aliases during first cycle
     fi
 
