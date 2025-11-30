@@ -29,6 +29,14 @@ if [[ $vm_setting == 1 ]]; then
   ## sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt
   ## sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
   ## sudo systemctl enable autofs.service 2>>log.txt
+  sudo mkdir /mnt/Partage /mnt/Photos
+  sudo cat >> "/etc/fstab" <<- EOL
+  
+  ## Synology DS918
+  192.168.1.96:/volume1/Partage /mnt/Partage  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
+  192.168.1.96:/volume1/Photos /mnt/Photos  nfs _netdev,noauto,x-systemd.automount,x-systemd.mount-timeout=10,timeo=14,x-systemd.idle-timeout=1min 0 0
+EOL
+
   sudo modprobe vboxdrv 2>>log.txt
   cryptyrust_cli -d /home/${USER}/myconfig/files/myEncryptedFile -p ${password} -o tmp.tar.gz
   tar -xf /home/${USER}/myconfig/tmp.tar.gz -C /home/${USER}/
@@ -57,6 +65,7 @@ sudo chown -R ${USER}:${USER} /home/${USER} 2>>log.txt
 
 xfce4-set-wallpaper /usr/share/backgrounds/packarch/default.jpg 2>>log.txt
 sudo systemctl enable lightdm.service 2>>log.txt
+xfconf-query --channel xsettings --property /Gtk/CursorThemeSize --set 24
 
 ## Set zsh shell for user
 chsh -s /bin/zsh
