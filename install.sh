@@ -26,9 +26,9 @@ if [[ $vm_setting == 1 ]]; then
   sudo pacman -S - < extra_pkgs.txt --noconfirm 2>>log.txt
   rustup toolchain install stable 2>>log.txt
   ## Add syno nfs share to autofs
-  sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt
-  sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
-  sudo systemctl enable autofs.service 2>>log.txt
+  ## sudo cp -r /home/${USER}/myconfig/files/auto.nfs /etc/auto.nfs 2>>log.txt
+  ## sudo sed -i -e 's|/misc.*|/mnt /etc/auto.nfs --ghost,--timeout=60|g' /etc/autofs/auto.master 2>>log.txt
+  ## sudo systemctl enable autofs.service 2>>log.txt
   sudo modprobe vboxdrv 2>>log.txt
   cryptyrust_cli -d /home/${USER}/myconfig/files/myEncryptedFile -p ${password} -o tmp.tar.gz
   tar -xf /home/${USER}/myconfig/tmp.tar.gz -C /home/${USER}/

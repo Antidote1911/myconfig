@@ -5,7 +5,6 @@ smplayer-skins
 smplayer-themes
 mkvtoolnix-gui
 rustup
-autofs
 virtualbox
 virtualbox-host-modules-arch
 packarch-icons-luna
