@@ -10,3 +10,5 @@ virtualbox-host-modules-arch
 packarch-icons-luna
 packarch-fonts
 keepassxc
+oh-my-zsh-git
+zsh-theme-powerlevel10k-git
