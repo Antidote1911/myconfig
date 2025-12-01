@@ -35,3 +35,4 @@ geany
 atril
 htop
 zsh
+numlockx
