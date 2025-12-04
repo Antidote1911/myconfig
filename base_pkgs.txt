@@ -29,8 +29,8 @@ xfce4-weather-plugin
 xfce4-whiskermenu-plugin
 xfce4-xkb-plugin
 arc-gtk-theme-eos
-eos-lightdm-slick-theme
-endeavouros-xfce4-terminal-colors
+#eos-lightdm-slick-theme
+#endeavouros-xfce4-terminal-colors
 geany
 atril
 htop
