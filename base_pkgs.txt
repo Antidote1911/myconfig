@@ -36,3 +36,8 @@ atril
 htop
 zsh
 numlockx
+oh-my-zsh-git
+zsh-theme-powerlevel10k-git
+packarch-icons-luna
+packarch-gtk-theme-kripton
+packarch-fonts

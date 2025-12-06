@@ -7,9 +7,5 @@ mkvtoolnix-gui
 rustup
 virtualbox
 virtualbox-host-modules-arch
-packarch-icons-luna
-packarch-gtk-theme-kripton
-packarch-fonts
 keepassxc
-oh-my-zsh-git
-zsh-theme-powerlevel10k-git
+
