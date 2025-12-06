@@ -1,4 +1,5 @@
 cryptyrust
+discord
 packarch-rmatrix
 smplayer
 smplayer-skins
