@@ -55,6 +55,7 @@ sudo cp -r /home/${USER}/myconfig/files/userconfig/.bash_profile /home/${USER}/.
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.bashrc /home/${USER}/.bashrc 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.zshrc /home/${USER}/.zshrc 2>>log.txt
 sudo cp -r /home/${USER}/myconfig/files/userconfig/.p10k.zsh /home/${USER}/.p10k.zsh 2>>log.txt
+sudo cp -r /home/${USER}/myconfig/files/zzz-xfce-defaults.js /usr/lib/firefox/defaults/pref/zzz-xfce-defaults.js 2>>log.txt
 sudo mkdir -p /usr/share/oh-my-zsh/themes/
 sudo cp -r /usr/share/zsh-theme-powerlevel10k /usr/share/oh-my-zsh/themes/powerlevel10k
 
