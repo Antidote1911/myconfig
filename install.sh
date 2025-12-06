@@ -40,7 +40,7 @@ EOL
   tar -xf /home/${USER}/myconfig/tmp.tar.gz -C /home/${USER}/
   eval `ssh-agent -s`
   /home/${USER}/./gitconfig.sh
-  yay -S --noconfirm --noedit --answerdiff None --answerclean None filebot rustrover rustrover-jre
+  yay -S --noconfirm --answerdiff None --answerclean None filebot rustrover rustrover-jre
 fi
 ####################################################
 
