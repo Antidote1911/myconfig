@@ -79,7 +79,7 @@ apps=(avahi-discover.desktop bssh.desktop bvnc.desktop xfce4-about.desktop \
 	libfm-pref-apps.desktop eos-quickstart.desktop lstopo.desktop \
 	uxterm.desktop nm-connection-editor.desktop xterm.desktop \
 	qvidcap.desktop stoken-gui.desktop stoken-gui-small.desktop assistant.desktop \
-	qv4l2.desktop qdbusviewer.desktop mpv.desktop)
+	qv4l2.desktop qdbusviewer.desktop mpv.desktop java-java-openjdk.desktop jconsole-java-openjdk.desktop jshell-java-openjdk.desktop)
 
 for app in "${apps[@]}"; do
 	if [[ -e "$adir/$app" ]]; then
